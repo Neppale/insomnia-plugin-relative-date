@@ -1,0 +1,40 @@
+{
+  "name": "insomnia-plugin-relative-date",
+  "version": "0.0.1",
+  "description": "An Insomnia plugin to insert relative dates in ISO-8601 format",
+  "main": "index.js",
+  "author": "Gabriel Verissimo Dias",
+  "license": "MIT",
+  "insomnia": {
+    "name": "relative-date",
+    "displayName": "Relative Date",
+    "description": "This plugin allows you to insert relative dates in ISO-8601 format.",
+    "images": {
+      "icon": "icon.svg",
+      "cover": "cover.svg"
+    },
+    "publisher": {
+      "name": "Gabriel Verissimo Dias",
+      "icon": "https://media.licdn.com/dms/image/v2/D4D03AQHbxdRUQciCoA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693500142558?e=1749081600&v=beta&t=aTu-V6D-tT_AILhKkDOvY3dPSYPfQ7ksWR4i_0_gmDU"
+    },
+    "dependencies": {
+      "chrono-node": "^2.3.2",
+      "date-fns": "^3.3.0"
+    },
+    "keywords": [
+      "insomnia-plugin",
+      "insomnia",
+      "relative-date",
+      "date",
+      "time",
+      "iso-8601",
+      "datetime",
+      "datetime-format"
+    ],
+    "unlisted": false
+  },
+  "dependencies": {
+    "chrono-node": "^2.7.9",
+    "date-fns": "^4.1.0"
+  }
+}
