@@ -10,8 +10,7 @@
     "displayName": "Relative Date",
     "description": "This plugin allows you to insert relative dates in ISO-8601 format.",
     "images": {
-      "icon": "icon.svg",
-      "cover": "cover.svg"
+      "icon": "./assets/icon.png"
     },
     "publisher": {
       "name": "Gabriel Verissimo Dias",

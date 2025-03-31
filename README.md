@@ -1,4 +1,4 @@
-# Insomnia Plugin: Relative Date
+# Relative Date
 
 An Insomnia plugin that allows you to insert relative dates in ISO-8601 format dynamically. No more manually updating dates in your API requests!
 
@@ -79,4 +79,4 @@ Restart Insomnia to see your changes.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
