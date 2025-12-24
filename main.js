@@ -5,17 +5,18 @@ module.exports.templateTags = [
   {
     name: "relative_date",
     displayName: "Relative Date",
-    description: "Generate a date relative to now in ISO-8601 format",
+    description:
+      "Generate a date string in ISO-8601 format based on a relative date expression",
     args: [
       {
         displayName: "Date Expression",
         description:
-          "Relative date (e.g., 'now', 'tomorrow', 'next week', '2025-05-01 + 2 days')",
+          "Relative date expression (e.g., 'now', 'tomorrow', 'next week', '2025-05-01 + 2 days')",
         type: "string",
         defaultValue: "now",
       },
     ],
-    async run(context, expression) {
+    async run(_context, expression) {
       try {
         const parsedDate = parse(expression);
         if (!parsedDate || !parsedDate.length) {

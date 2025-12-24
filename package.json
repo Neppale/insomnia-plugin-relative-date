@@ -2,7 +2,7 @@
   "name": "insomnia-plugin-relative-date",
   "version": "0.0.1",
   "description": "An Insomnia plugin to insert relative dates in ISO-8601 format",
-  "main": "index.js",
+  "main": "main.js",
   "author": "Gabriel Verissimo Dias",
   "license": "MIT",
   "insomnia": {
