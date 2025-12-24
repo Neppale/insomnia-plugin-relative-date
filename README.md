@@ -50,4 +50,4 @@ The field will automatically be replaced with the computed ISO-8601 date.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
