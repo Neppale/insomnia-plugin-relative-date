@@ -1,4 +1,4 @@
-const { run } = require("./run");
+const { RelativeDate } = require("./run");
 
 module.exports.templateTags = [
   {
@@ -14,9 +14,16 @@ module.exports.templateTags = [
         type: "string",
         defaultValue: "now",
       },
+      {
+        displayName: "Time zone",
+        description:
+          "IANA timezone, such as America/Sao_Paulo or UTC. Leave empty to use the host timezone.",
+        type: "string",
+        defaultValue: "",
+      },
     ],
-    async run(_context, expression) {
-      return run(_context, expression);
+    async run(_context, expression, timezone) {
+      	return new RelativeDate(expression, timezone).run();
     },
   },
 ];
