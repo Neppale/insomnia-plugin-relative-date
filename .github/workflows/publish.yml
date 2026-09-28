@@ -10,6 +10,10 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+
 
     steps:
       - name: Checkout code
@@ -23,7 +27,7 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install -g npm@latest && npm ci
 
       - name: Publish to NPM
         run: npm stage publish
