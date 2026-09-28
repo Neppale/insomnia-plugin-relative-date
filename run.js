@@ -1,6 +1,6 @@
 const { parse } = require("chrono-node");
 const { formatISO } = require("date-fns");
-const { TZDate, tz } = require("@date-fns/tz");
+const { TZDate } = require("@date-fns/tz");
 
 class RelativeDate {
 	constructor(expression, timezone) {
