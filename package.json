@@ -5,6 +5,10 @@
   "main": "main.js",
   "author": "Gabriel Verissimo Dias",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neppale/insomnia-plugin-relative-date.git"
+  },
   "insomnia": {
     "name": "relative-date",
     "displayName": "Relative Date",
