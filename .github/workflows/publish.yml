@@ -29,6 +29,4 @@ jobs:
 
       - name: Publish to NPM
         run: |
-            sed -i '/_authToken/d' "${NPM_CONFIG_USERCONFIG:-$HOME/.npmrc}"
-            unset NODE_AUTH_TOKEN
-            npm stage publish
+            NODE_AUTH_TOKEN="" npm stage publish
