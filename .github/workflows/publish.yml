@@ -29,4 +29,5 @@ jobs:
 
       - name: Publish to NPM
         run: |
-            NODE_AUTH_TOKEN="" npm stage publish
+            unset NODE_AUTH_TOKEN
+            npm stage publish --loglevel=verbose
